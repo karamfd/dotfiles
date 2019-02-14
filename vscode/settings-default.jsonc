@@ -1,0 +1,70 @@
+{
+  "editor.fontFamily": "Office Code Pro",
+  "editor.fontSize": 18,
+  "editor.lineHeight": 36,
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.tabSize": 2,
+  "editor.wordWrap": "bounded",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.sortOrder": "filesFirst",
+  "files.associations": {
+    "*.babel": "javascript",
+    "*.fish": "shellscript",
+    "fish_history": "shellscript"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.localized": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "scm.diffDecorations": "none",
+  "telemetry.enableTelemetry": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.confirmOnExit": true,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1.3,
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "window.restoreWindows": "none",
+  "workbench.commandPalette.history": 5,
+  "workbench.editor.enablePreview": false,
+  "workbench.settings.editor": "json",
+  "workbench.settings.useSplitJSON": true,
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.feedback.visible": false,
+  // Extension Preferences
+  "color-highlight.markRuler": false,
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "gutterpreview.showImagePreviewOnGutter": false,
+  "prettier.eslintIntegration": true,
+  "prettier.stylelintIntegration": true,
+  "workbench.colorTheme": "Nord",
+  "workbench.iconTheme": "material-icon-theme",
+  // Format & lint
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "html.format.enable": false,
+  "javascript.format.enable": false,
+  // Theme customizations
+  "editor.tokenColorCustomizations": {
+    "[Nord]": {
+      "comments": "#66738e",
+      "strings": "#b48ead"
+    }
+  },
+  "workbench.colorCustomizations": {
+    "[Nord]": {
+      "editorIndentGuide.activeBackground": "#66738e"
+    }
+  }
+}
