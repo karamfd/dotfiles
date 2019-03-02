@@ -8,6 +8,7 @@
     "comments": true,
     "strings": true
   },
+  "editor.renderLineHighlight": "all",
   "editor.tabSize": 2,
   "editor.wordWrap": "bounded",
   "explorer.confirmDelete": false,
