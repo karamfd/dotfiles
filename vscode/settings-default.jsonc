@@ -62,10 +62,5 @@
       "comments": "#66738e",
       "strings": "#b48ead"
     }
-  },
-  "workbench.colorCustomizations": {
-    "[Nord]": {
-      "editorIndentGuide.activeBackground": "#66738e"
-    }
   }
 }
