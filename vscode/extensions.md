@@ -1,4 +1,5 @@
 # My Favourite Extensions
+
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
@@ -11,6 +12,7 @@
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Quokka](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
+- [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright#review-details)
 - [Stylelint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)
 - [Toggle Quotes](https://marketplace.visualstudio.com/items?itemName=BriteSnow.vscode-toggle-quotes)
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
