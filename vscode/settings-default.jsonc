@@ -44,7 +44,7 @@
   // Extension Preferences
   "color-highlight.markRuler": false,
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "vue-html": "html"
   },
   "eslint.alwaysShowStatus": true,
   "eslint.autoFixOnSave": true,
