@@ -2,7 +2,7 @@
   "editor.cursorBlinking": "solid",
   "terminal.integrated.cursorBlinking": false,
   "window.zoomLevel": 2,
-  "workbench.colorTheme": "lucy",
+  "workbench.colorTheme": "Dracula",
   "workbench.fontAliasing": "antialiased",
   "workbench.settings.useSplitJSON": false
 }
