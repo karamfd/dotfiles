@@ -1,4 +1,5 @@
 {
+  // Editor Settings
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.fontFamily": "Office Code Pro",
@@ -15,6 +16,7 @@
   "editor.suggest.showIcons": true,
   "editor.tabSize": 2,
   "editor.wordWrap": "bounded",
+  // Explorer & Files Settings
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
@@ -28,13 +30,13 @@
     "**/.localized": true
   },
   "files.trimTrailingWhitespace": true,
-  "scm.diffDecorations": "none",
-  "telemetry.enableTelemetry": false,
+  // Terminal Settings
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.confirmOnExit": true,
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.lineHeight": 1.3,
   "terminal.integrated.shell.osx": "/bin/zsh",
+  // Window & Workbench Settings
   "window.restoreWindows": "none",
   "window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
   "workbench.colorTheme": "Nord",
@@ -47,7 +49,7 @@
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "none",
   "workbench.statusBar.feedback.visible": false,
-  // Extension Preferences
+  // Extension Settings
   "color-highlight.markRuler": false,
   "emmet.includeLanguages": {
     "vue-html": "html"
@@ -58,7 +60,7 @@
   "prettier.eslintIntegration": true,
   "prettier.stylelintIntegration": true,
   "workbench.iconTheme": "material-icon-theme",
-  // Format & lint
+  // Format Settings
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "html.format.enable": false,
@@ -71,5 +73,10 @@
   },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
-  }
+  },
+  // Miscellaneous Settings
+  "breadcrumbs.enabled": false,
+  "diffEditor.renderSideBySide": false,
+  "scm.diffDecorations": "none",
+  "telemetry.enableTelemetry": false
 }
