@@ -22,12 +22,13 @@
   "explorer.openEditors.visible": 0,
   "explorer.sortOrder": "filesFirst",
   "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
     "**/.DS_Store": true,
-    "**/.localized": true
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.localized": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/node_modules": true
   },
   "files.trimTrailingWhitespace": true,
   // Terminal Settings
@@ -50,7 +51,7 @@
   "workbench.startupEditor": "none",
   "workbench.statusBar.feedback.visible": false,
   // Extension Settings
-  "color-highlight.markRuler": false,
+  "colorize.enable_search_variables": false,
   "emmet.includeLanguages": {
     "vue-html": "html"
   },
