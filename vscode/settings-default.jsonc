@@ -40,7 +40,8 @@
   // Window & Workbench Settings
   "window.restoreWindows": "none",
   "window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
-  "workbench.colorTheme": "Nord",
+  "window.titleBarStyle": "native",
+  "workbench.colorTheme": "Spunky",
   "workbench.commandPalette.history": 5,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -49,7 +50,7 @@
   "workbench.settings.useSplitJSON": true,
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "none",
-  "workbench.statusBar.feedback.visible": false,
+  "workbench.tree.renderIndentGuides": "none",
   // Extension Settings
   "colorize.enable_search_variables": false,
   "emmet.includeLanguages": {
