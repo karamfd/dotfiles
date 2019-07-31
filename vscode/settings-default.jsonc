@@ -4,6 +4,7 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.fontFamily": "Office Code Pro",
   "editor.fontSize": 18,
+  "editor.fontWeight": "400",
   "editor.lineHeight": 36,
   "editor.minimap.enabled": false,
   "editor.quickSuggestions": {
@@ -20,7 +21,8 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
-  "explorer.sortOrder": "filesFirst",
+  "explorer.sortOrder": "type",
+  "files.autoSave": "off",
   "files.exclude": {
     "**/.DS_Store": true,
     "**/.git": true,
@@ -40,17 +42,18 @@
   // Window & Workbench Settings
   "window.restoreWindows": "none",
   "window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
-  "window.titleBarStyle": "native",
+  "window.titleBarStyle": "custom",
   "workbench.colorTheme": "Spunky",
   "workbench.commandPalette.history": 5,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.settings.editor": "json",
-  "workbench.settings.useSplitJSON": true,
+  "workbench.settings.useSplitJSON": false,
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "none",
-  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.renderIndentGuides": "onHover",
   // Extension Settings
   "colorize.enable_search_variables": false,
   "emmet.includeLanguages": {
@@ -61,7 +64,6 @@
   "gutterpreview.showImagePreviewOnGutter": false,
   "prettier.eslintIntegration": true,
   "prettier.stylelintIntegration": true,
-  "workbench.iconTheme": "material-icon-theme",
   // Format Settings
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
