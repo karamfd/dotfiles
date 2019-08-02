@@ -13,6 +13,7 @@
     "strings": true
   },
   "editor.renderLineHighlight": "all",
+  "editor.snippetSuggestions": "top",
   "editor.suggest.maxVisibleSuggestions": 8,
   "editor.suggest.showIcons": true,
   "editor.tabSize": 2,
@@ -50,7 +51,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.settings.editor": "json",
-  "workbench.settings.useSplitJSON": false,
+  "workbench.settings.useSplitJSON": true,
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "onHover",
@@ -59,6 +60,7 @@
   "emmet.includeLanguages": {
     "vue-html": "html"
   },
+  "emmet.showSuggestionsAsSnippets": true,
   "eslint.alwaysShowStatus": true,
   "eslint.autoFixOnSave": true,
   "gutterpreview.showImagePreviewOnGutter": false,
