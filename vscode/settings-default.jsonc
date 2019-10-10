@@ -22,7 +22,7 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
-  "explorer.sortOrder": "type",
+  "explorer.sortOrder": "filesFirst",
   "files.autoSave": "off",
   "files.exclude": {
     "**/.DS_Store": true,
@@ -54,9 +54,10 @@
   "workbench.settings.useSplitJSON": true,
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "none",
-  "workbench.tree.renderIndentGuides": "onHover",
+  "workbench.tree.renderIndentGuides": "none",
   // Extension Settings
   "colorize.enable_search_variables": false,
+  "colorize.languages": ["css", "jsonc", "svg"],
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "vue-html": "html",
@@ -84,6 +85,7 @@
   // Miscellaneous Settings
   "breadcrumbs.enabled": false,
   "diffEditor.renderSideBySide": false,
+  "scm.defaultViewMode": "tree",
   "scm.diffDecorations": "none",
   "telemetry.enableTelemetry": false
 }
