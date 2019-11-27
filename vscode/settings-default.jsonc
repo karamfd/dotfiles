@@ -2,10 +2,10 @@
   // Editor Settings
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.fontFamily": "Office Code Pro",
-  "editor.fontSize": 18,
+  "editor.fontFamily": "Operator Mono",
+  "editor.fontSize": 20,
   "editor.fontWeight": "400",
-  "editor.lineHeight": 36,
+  "editor.lineHeight": 40,
   "editor.minimap.enabled": false,
   "editor.quickSuggestions": {
     "other": true,
@@ -14,16 +14,13 @@
   },
   "editor.renderLineHighlight": "all",
   "editor.snippetSuggestions": "top",
-  "editor.suggest.maxVisibleSuggestions": 8,
-  "editor.suggest.showIcons": true,
   "editor.tabSize": 2,
   "editor.wordWrap": "bounded",
   // Explorer & Files Settings
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
-  "explorer.sortOrder": "filesFirst",
-  "files.autoSave": "off",
+  "explorer.sortOrder": "type",
   "files.exclude": {
     "**/.DS_Store": true,
     "**/.git": true,
@@ -38,26 +35,23 @@
   "terminal.integrated.confirmOnExit": true,
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.lineHeight": 1.3,
-  "terminal.integrated.rendererType": "canvas",
   "terminal.integrated.shell.osx": "/bin/zsh",
   // Window & Workbench Settings
   "window.restoreWindows": "none",
-  "window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
-  "window.titleBarStyle": "custom",
+  "window.titleBarStyle": "native",
   "workbench.colorTheme": "Spunky",
   "workbench.commandPalette.history": 5,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.fontAliasing": "auto",
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.settings.editor": "json",
-  "workbench.settings.useSplitJSON": true,
-  "workbench.sideBar.location": "left",
+  "workbench.settings.useSplitJSON": false,
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "none",
   // Extension Settings
   "colorize.enable_search_variables": false,
-  "colorize.languages": ["css", "jsonc", "svg"],
+  "colorize.languages": ["css", "js", "jsonc", "svg"],
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "vue-html": "html",
@@ -67,6 +61,7 @@
   "eslint.alwaysShowStatus": true,
   "eslint.autoFixOnSave": true,
   "gutterpreview.showImagePreviewOnGutter": false,
+  "prettier.disableLanguages": ["html"],
   // Format Settings
   "css.validate": false,
   "editor.formatOnPaste": true,
@@ -85,6 +80,7 @@
   // Miscellaneous Settings
   "breadcrumbs.enabled": false,
   "diffEditor.renderSideBySide": false,
+  "markdown.preview.fontSize": 18,
   "scm.defaultViewMode": "tree",
   "scm.diffDecorations": "none",
   "telemetry.enableTelemetry": false
