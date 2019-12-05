@@ -14,7 +14,6 @@
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Quokka](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
 - [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright#review-details)
-- [Stylelint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)
 - [Toggle Quotes](https://marketplace.visualstudio.com/items?itemName=BriteSnow.vscode-toggle-quotes)
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 - [YAML Support by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
