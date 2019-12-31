@@ -1,5 +1,6 @@
 {
   // Editor Settings
+  "editor.colorDecorators": false,
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.fontFamily": "Operator Mono",
@@ -13,6 +14,7 @@
     "strings": true
   },
   "editor.renderLineHighlight": "all",
+  "editor.rulers": [80],
   "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
   "editor.wordWrap": "bounded",
@@ -59,14 +61,17 @@
   },
   "emmet.showSuggestionsAsSnippets": true,
   "eslint.alwaysShowStatus": true,
-  "eslint.autoFixOnSave": true,
   "gutterpreview.showImagePreviewOnGutter": false,
   "prettier.disableLanguages": ["html"],
   // Format Settings
   "css.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "html.format.enable": false,
+  "html.format.enable": true,
+  "html.format.extraLiners": "",
   "javascript.format.enable": false,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -81,7 +86,9 @@
   "breadcrumbs.enabled": false,
   "diffEditor.renderSideBySide": false,
   "markdown.preview.fontSize": 18,
+  "problems.showCurrentInStatus": true,
   "scm.defaultViewMode": "tree",
   "scm.diffDecorations": "none",
+  "search.searchOnType": false,
   "telemetry.enableTelemetry": false
 }
