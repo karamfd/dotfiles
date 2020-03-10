@@ -17,8 +17,10 @@
   "editor.rulers": [80],
   "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
-  "editor.wordWrap": "bounded",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 80,
   // Explorer & Files Settings
+  "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
@@ -45,7 +47,10 @@
   "workbench.commandPalette.history": 5,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 4,
   "workbench.fontAliasing": "auto",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.settings.editor": "json",
   "workbench.settings.useSplitJSON": false,
@@ -64,15 +69,20 @@
   "gutterpreview.showImagePreviewOnGutter": false,
   "prettier.disableLanguages": ["html"],
   // Format Settings
-  "css.validate": false,
+  "css.validate": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "html.format.enable": true,
+  "html.format.enable": false,
   "html.format.extraLiners": "",
+  "html.format.indentInnerHtml": true,
+  "html.mirrorCursorOnMatchingTag": true,
   "javascript.format.enable": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
