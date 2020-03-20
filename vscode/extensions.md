@@ -1,6 +1,5 @@
 # My Favourite Extensions
 
-- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour)
 - [Colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
 - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
