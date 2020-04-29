@@ -1,9 +1,10 @@
 {
   // Editor Settings
-  "editor.colorDecorators": false,
+  "editor.colorDecorators": true,
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.fontFamily": "Operator Mono",
+  "editor.fontLigatures": false,
   "editor.fontSize": 20,
   "editor.fontWeight": "400",
   "editor.lineHeight": 40,
@@ -13,11 +14,14 @@
     "comments": true,
     "strings": true
   },
+  "editor.renameOnType": true,
   "editor.renderLineHighlight": "all",
-  "editor.rulers": [80],
+  "editor.rulers": [
+    80
+  ],
   "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
-  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 80,
   // Explorer & Files Settings
   "explorer.compactFolders": false,
@@ -25,6 +29,9 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
   "explorer.sortOrder": "type",
+  "files.associations": {
+    "*.json": "jsonc"
+  },
   "files.exclude": {
     "**/.DS_Store": true,
     "**/.git": true,
@@ -43,7 +50,7 @@
   // Window & Workbench Settings
   "window.restoreWindows": "none",
   "window.titleBarStyle": "native",
-  "workbench.colorTheme": "Spunky",
+  "workbench.colorTheme": "Solarized Dark",
   "workbench.commandPalette.history": 5,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -57,19 +64,33 @@
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "none",
   // Extension Settings
+  "bracket-pair-colorizer-2.excludedLanguages": [
+    "html",
+    "css"
+  ],
   "colorize.enable_search_variables": false,
-  "colorize.languages": ["css", "js", "jsonc", "svg"],
+  "colorize.languages": [
+    "css",
+    "html",
+    "js",
+    "jsonc",
+    "php",
+    "svg"
+  ],
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
+    "php": "html",
     "vue-html": "html",
     "vue": "html"
   },
   "emmet.showSuggestionsAsSnippets": true,
   "eslint.alwaysShowStatus": true,
   "gutterpreview.showImagePreviewOnGutter": false,
-  "prettier.disableLanguages": ["html"],
+  "prettier.disableLanguages": [
+    "html"
+  ],
   // Format Settings
-  "css.validate": true,
+  "css.validate": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
@@ -77,18 +98,16 @@
   "editor.formatOnSave": true,
   "html.format.enable": false,
   "html.format.extraLiners": "",
-  "html.format.indentInnerHtml": true,
-  "html.mirrorCursorOnMatchingTag": true,
+  "html.format.indentInnerHtml": false,
   "javascript.format.enable": false,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "intelephense.format.enable": false,
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "php.suggest.basic": false,
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
