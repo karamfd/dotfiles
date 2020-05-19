@@ -1,5 +1,7 @@
 # My Favourite Extensions
 
+- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+- [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 - [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour)
 - [Colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
 - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
@@ -11,9 +13,12 @@
 - [Nord Color Theme](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code)
 - [NPM](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
 - [NPM Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+- [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
+- [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Quokka](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
 - [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright#review-details)
+- [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 - [Toggle Quotes](https://marketplace.visualstudio.com/items?itemName=BriteSnow.vscode-toggle-quotes)
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 - [YAML Support by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
