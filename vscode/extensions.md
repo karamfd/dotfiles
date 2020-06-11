@@ -10,6 +10,7 @@
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 - [Image Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
+- [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [Nord Color Theme](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code)
 - [NPM](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
