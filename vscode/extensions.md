@@ -1,6 +1,7 @@
 # My Favourite Extensions
 
 - [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+- [Cloak](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-cloak)
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 - [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour)
 - [Colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
@@ -13,6 +14,7 @@
 - [Nord Color Theme](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code)
 - [NPM](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
 - [NPM Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+- [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
 - [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
 - [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
