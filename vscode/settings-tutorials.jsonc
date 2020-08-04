@@ -1,7 +1,0 @@
-{
-  "editor.cursorBlinking": "solid",
-  "editor.cursorSmoothCaretAnimation": false,
-  "terminal.integrated.cursorBlinking": false,
-  "window.zoomLevel": 2,
-  "workbench.fontAliasing": "antialiased"
-}
