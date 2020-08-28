@@ -1,29 +1,31 @@
 {
-  // Change settings based on current preference
-  "editor.colorDecorators": true,
+  // Change settings based on current project
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
+  "editor.fontFamily": "Cartograph CF",
+  "editor.fontLigatures": "'ss03'",
   "editor.fontSize": 20,
+  "editor.fontWeight": "300",
   "editor.lineHeight": 40,
+  "editor.rulers": [80],
+  "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 80,
   "explorer.sortOrder": "filesFirst",
   "html.format.enable": true,
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "prettier.disableLanguages": ["html"],
+  "terminal.integrated.cursorBlinking": true,
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Spunky",
-  "workbench.editor.limit.enabled": false,
+  "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 4,
-  "workbench.fontAliasing": "auto",
   "workbench.settings.editor": "json",
   "workbench.settings.useSplitJSON": false,
   // Editor Settings
-  "editor.fontFamily": "Operator Mono",
-  "editor.fontLigatures": false,
-  "editor.fontWeight": "400",
   "editor.minimap.enabled": false,
   "editor.quickSuggestions": {
     "other": true,
@@ -33,8 +35,6 @@
   "editor.renameOnType": true,
   "editor.renderLineHighlight": "all",
   "editor.renderWhitespace": "none",
-  "editor.rulers": [80],
-  "editor.snippetSuggestions": "top",
   // Explorer & Files Settings
   "explorer.autoReveal": "focusNoScroll",
   "explorer.compactFolders": false,
@@ -51,7 +51,6 @@
   },
   "files.trimTrailingWhitespace": true,
   // Terminal Settings
-  "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.confirmOnExit": true,
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.shell.osx": "/bin/zsh",
@@ -61,14 +60,20 @@
   "workbench.commandPalette.history": 5,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.fontAliasing": "auto",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "none",
   // Extension Settings
-  "bracket-pair-colorizer-2.excludedLanguages": ["css", "markdown", "scss"],
+  "bracket-pair-colorizer-2.excludedLanguages": [
+    "css",
+    "html",
+    "markdown",
+    "scss"
+  ],
   "colorize.enable_search_variables": false,
-  "colorize.languages": ["css", "js", "json", "jsonc", "scss", "svg"],
+  "colorize.languages": ["html", "js", "json", "jsonc", "scss", "svg"],
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "nunjucks": "html",
@@ -76,13 +81,12 @@
     "vue": "html"
   },
   "emmet.showSuggestionsAsSnippets": false,
-  // "eslint.alwaysShowStatus": true,
+  "eslint.alwaysShowStatus": true,
   "gutterpreview.showImagePreviewOnGutter": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "material-icon-theme.files.associations": {
     "*.html": "html"
   },
-  "prettier.disableLanguages": ["html"],
   // Format Settings
   "css.validate": true,
   "editor.codeActionsOnSave": {
