@@ -1,5 +1,6 @@
 # My Favourite Extensions
 
+- [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
 - [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 - [Cloak](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-cloak)
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
