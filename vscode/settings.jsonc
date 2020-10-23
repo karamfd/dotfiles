@@ -1,31 +1,15 @@
 {
-  // Change settings based on current project
+  // Editor Settings
+  "editor.acceptSuggestionOnEnter": "smart",
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
+  "editor.find.cursorMoveOnType": false,
   "editor.fontFamily": "Cartograph CF",
   "editor.fontLigatures": "'ss03'",
   "editor.fontSize": 20,
-  "editor.fontWeight": "300",
+  "editor.fontWeight": "400",
+  "editor.formatOnSaveMode": "file",
   "editor.lineHeight": 40,
-  "editor.rulers": [80],
-  "editor.snippetSuggestions": "top",
-  "editor.tabSize": 2,
-  "editor.wordWrap": "bounded",
-  "editor.wordWrapColumn": 80,
-  "explorer.sortOrder": "filesFirst",
-  "html.format.enable": true,
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "prettier.disableLanguages": ["html"],
-  "terminal.integrated.cursorBlinking": true,
-  "window.zoomLevel": 0,
-  "workbench.colorTheme": "Spunky",
-  "workbench.editor.limit.enabled": true,
-  "workbench.editor.limit.value": 4,
-  "workbench.settings.editor": "json",
-  "workbench.settings.useSplitJSON": false,
-  // Editor Settings
   "editor.minimap.enabled": false,
   "editor.quickSuggestions": {
     "other": true,
@@ -35,34 +19,47 @@
   "editor.renameOnType": true,
   "editor.renderLineHighlight": "all",
   "editor.renderWhitespace": "none",
+  "editor.rulers": [
+    80
+  ],
+  "editor.snippetSuggestions": "bottom",
+  "editor.tabSize": 2,
+  "editor.unusualLineTerminators": "auto",
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 80,
   // Explorer & Files Settings
   "explorer.autoReveal": "focusNoScroll",
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
+  "explorer.sortOrder": "filesFirst",
   "files.exclude": {
+    "**/CVS": true,
     "**/.DS_Store": true,
     "**/.git": true,
     "**/.hg": true,
     "**/.localized": true,
-    "**/.svn": true,
-    "**/CVS": true
+    "**/.svn": true
   },
   "files.trimTrailingWhitespace": true,
   // Terminal Settings
   "terminal.integrated.confirmOnExit": true,
+  "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.shell.osx": "/bin/zsh",
   // Window & Workbench Settings
   "window.restoreWindows": "none",
   "window.titleBarStyle": "custom",
-  "workbench.commandPalette.history": 5,
+  "workbench.colorTheme": "Spunky",
+  "workbench.commandPalette.history": 4,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.fontAliasing": "auto",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.panel.opensMaximized": "always",
+  "workbench.settings.editor": "json",
   "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.settings.useSplitJSON": false,
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "none",
   // Extension Settings
@@ -73,42 +70,64 @@
     "scss"
   ],
   "colorize.enable_search_variables": false,
-  "colorize.languages": ["html", "js", "json", "jsonc", "scss", "svg"],
+  "colorize.languages": [
+    "css",
+    "js",
+    "json",
+    "jsonc",
+    "scss",
+    "svg"
+  ],
+  "emmet.excludeLanguages": [],
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
-    "nunjucks": "html",
+    "markdown": "html",
     "vue-html": "html",
     "vue": "html"
   },
   "emmet.showSuggestionsAsSnippets": false,
   "eslint.alwaysShowStatus": true,
   "gutterpreview.showImagePreviewOnGutter": false,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "material-icon-theme.files.associations": {
-    "*.html": "html"
-  },
+  "material-icon-theme.hidesExplorerArrows": false,
+  "prettier.disableLanguages": [
+    "html"
+  ],
+  "spellright.groupDictionaries": false,
   // Format Settings
   "css.validate": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.fixAll.markdownlint": true
   },
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
-  "html.format.extraLiners": "",
-  "html.format.indentInnerHtml": true,
-  "javascript.format.enable": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "html.format.enable": true,
+  "html.format.extraLiners": "",
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapLineLength": 80,
+  "javascript.format.enable": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // Screencast Mode
+  "screencastMode.mouseIndicatorColor": "#00ff80",
+  "screencastMode.mouseIndicatorSize": 44,
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "screencastMode.verticalOffset": 0,
   // Miscellaneous Settings
   "breadcrumbs.enabled": false,
   "diffEditor.renderSideBySide": false,
-  "markdown.preview.fontSize": 18,
+  "markdown.preview.fontSize": 20,
   "problems.showCurrentInStatus": true,
   "scm.defaultViewMode": "tree",
   "scm.diffDecorations": "none",
-  "screencastMode.onlyKeyboardShortcuts": true,
   "search.searchOnType": false,
   "telemetry.enableTelemetry": false
 }
