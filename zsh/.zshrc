@@ -7,7 +7,7 @@ zmodload zsh/zprof          # run with the zprof command
 # -----------------
 # Options
 # -----------------
-setopt NO_CASE_GLOB         # tab completion is not case sensitive
+setopt NO_CASE_GLOB         # wildcard completion is not case sensitive
 setopt HIST_FIND_NO_DUPS    # ignore duplicates when searching
 setopt HIST_IGNORE_ALL_DUPS # remove duplicate commands from history
 setopt HIST_IGNORE_SPACE    # ignore lines starting with a space
@@ -35,6 +35,8 @@ autoload -Uz compinit && compinit
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
 
 # Auto Suggestions
+export ZSH_AUTOSUGGEST_USE_ASYNC=true
+export ZSH_AUTOSUGGEST_MANUAL_REBIND=false
 source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Syntax Highlighting
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
