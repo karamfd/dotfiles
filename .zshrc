@@ -1,38 +1,40 @@
-# -----------------------------------------------
-# Options:
-# - enable with setopt: setopt AUTO_CD
-# - disable with either option below:
-#   unsetopt AUTO_CD
-#   setopt NO_AUTO_CD
-# -----------------------------------------------
+# Start the shell 10 times to see how long it takes to start each time
+# for i in $(seq 1 10); do /usr/bin/time zsh -i -c exit; done
 
-# Share history across multiple sessions
-setopt SHARE_HISTORY
-# Do not store duplications
-setopt HIST_IGNORE_ALL_DUPS
-# Remove blank lines from history
-setopt HIST_REDUCE_BLANKS
-# Ignore lines starting with a space
-setopt HIST_IGNORE_SPACE
+# What's making my shell slow?
+zmodload zsh/zprof          # run with the zprof command
+
+# -----------------
+# Options
+# -----------------
+setopt NO_CASE_GLOB         # tab completion is not case sensitive
+setopt HIST_FIND_NO_DUPS    # ignore duplicates when searching
+setopt HIST_IGNORE_ALL_DUPS # remove duplicate commands from history
+setopt HIST_IGNORE_SPACE    # ignore lines starting with a space
+setopt HIST_REDUCE_BLANKS   # remove blank lines from history
+setopt SHARE_HISTORY        # share history across multiple zsh sessions
 
 # ***********************************************
-# Add everything below manually to avoid
-# getting errors when starting a new shell
+# Load everything below manually to avoid
+# getting errors when the terminal starts
 # ***********************************************
+
+# -----------------
+# Features
+# -----------------
 
 # Starship Prompt
 eval "$(starship init zsh)"
 
+# Completions
+fpath=(~/.zsh/plugins/zsh-completions/src $fpath)
+source ~/.zsh/completion.zsh
+autoload -Uz compinit && compinit
+
 # Node version manager: N
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
 
-# -----------------------------------------------
-# Plugins: must be at the end of the file
-# -----------------------------------------------
-
-# zsh-autocomplete
-source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-# zsh-autosuggestions
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-# zsh-syntax-highlighting
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Auto Suggestions
+source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+# Syntax Highlighting
+source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
