@@ -1,0 +1,6 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+# Distinguish between correct and wrong commands
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[✗](bold red)"
