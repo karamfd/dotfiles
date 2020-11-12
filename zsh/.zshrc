@@ -12,6 +12,7 @@ setopt HIST_FIND_NO_DUPS    # ignore duplicates when searching
 setopt HIST_IGNORE_ALL_DUPS # remove duplicate commands from history
 setopt HIST_IGNORE_SPACE    # ignore lines starting with a space
 setopt HIST_REDUCE_BLANKS   # remove blank lines from history
+setopt INTERACTIVE_COMMENTS # enable comments in your shell
 setopt SHARE_HISTORY        # share history across multiple zsh sessions
 
 # ***********************************************
