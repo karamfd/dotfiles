@@ -1,20 +1,23 @@
 {
   // Project Based Settings
+  "editor.acceptSuggestionOnEnter": "smart",
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.fontFamily": "Office Code Pro",
-  "editor.fontLigatures": false,
-  "editor.fontWeight": "400",
-  "editor.snippetSuggestions": "bottom",
+  "editor.fontFamily": "Cartograph CF",
+  "editor.fontLigatures": "'ss03'",
+  "editor.fontWeight": "300",
+  "editor.formatOnSaveMode": "file",
+  "editor.linkedEditing": true,
+  "editor.snippetSuggestions": "top",
+  "emmet.showSuggestionsAsSnippets": true,
   "explorer.sortOrder": "filesFirst",
+  "html.autoClosingTags": true,
   "terminal.integrated.cursorBlinking": true,
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Spunky",
   // Editor Settings
-  "editor.acceptSuggestionOnEnter": "smart",
   "editor.find.cursorMoveOnType": false,
   "editor.fontSize": 20,
-  "editor.formatOnSaveMode": "file",
   "editor.lineHeight": 40,
   "editor.minimap.enabled": false,
   "editor.quickSuggestions": {
@@ -22,7 +25,6 @@
     "comments": true,
     "strings": true
   },
-  "editor.renameOnType": true,
   "editor.renderLineHighlight": "all",
   "editor.renderWhitespace": "none",
   "editor.rulers": [
@@ -51,8 +53,10 @@
   "files.trimTrailingWhitespace": true,
   // Terminal Settings
   "terminal.integrated.confirmOnExit": true,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
   "terminal.integrated.fontSize": 20,
-  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "terminal.integrated.rendererType": "canvas",
+  "terminal.integrated.shell.osx": "/bin/zsh",
   // Window & Workbench Settings
   "window.restoreWindows": "none",
   "window.titleBarStyle": "custom",
@@ -60,7 +64,7 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.panel.opensMaximized": "always",
+  "workbench.panel.opensMaximized": "never",
   "workbench.settings.editor": "json",
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.settings.useSplitJSON": false,
@@ -76,10 +80,7 @@
   "colorize.enable_search_variables": false,
   "colorize.languages": [
     "css",
-    "js",
-    "json",
     "jsonc",
-    "scss",
     "svg"
   ],
   "emmet.excludeLanguages": [],
@@ -87,9 +88,9 @@
     "javascript": "javascriptreact",
     "markdown": "html"
   },
-  "emmet.showSuggestionsAsSnippets": false,
   "eslint.alwaysShowStatus": true,
   "gutterpreview.showImagePreviewOnGutter": false,
+  "liveServer.settings.donotShowInfoMsg": true,
   "material-icon-theme.hidesExplorerArrows": false,
   "prettier.disableLanguages": [
     "html"
@@ -117,6 +118,12 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   // Screencast Mode
   "screencastMode.mouseIndicatorColor": "#00ff80",
