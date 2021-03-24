@@ -1,30 +1,20 @@
 {
   // Project Based Settings
-  "editor.acceptSuggestionOnEnter": "smart",
   "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": true,
   "editor.fontFamily": "Cartograph CF",
   "editor.fontLigatures": "'ss03'",
   "editor.fontWeight": "300",
   "editor.formatOnSaveMode": "file",
-  "editor.linkedEditing": true,
-  "editor.snippetSuggestions": "top",
-  "emmet.showSuggestionsAsSnippets": true,
-  "explorer.sortOrder": "filesFirst",
-  "html.autoClosingTags": true,
+  "emmet.showExpandedAbbreviation": "always",
+  "explorer.sortOrder": "type",
   "terminal.integrated.cursorBlinking": true,
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Spunky",
   // Editor Settings
+  "editor.acceptSuggestionOnEnter": "smart",
   "editor.find.cursorMoveOnType": false,
   "editor.fontSize": 20,
   "editor.lineHeight": 40,
   "editor.minimap.enabled": false,
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": true,
-    "strings": true
-  },
   "editor.renderLineHighlight": "all",
   "editor.renderWhitespace": "none",
   "editor.rulers": [
@@ -52,19 +42,19 @@
   },
   "files.trimTrailingWhitespace": true,
   // Terminal Settings
-  "terminal.integrated.confirmOnExit": true,
-  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.confirmOnExit": false,
   "terminal.integrated.fontSize": 20,
   "terminal.integrated.rendererType": "canvas",
   "terminal.integrated.shell.osx": "/bin/zsh",
   // Window & Workbench Settings
   "window.restoreWindows": "none",
   "window.titleBarStyle": "custom",
-  "workbench.commandPalette.history": 4,
+  "workbench.colorTheme": "Spunky",
+  "workbench.commandPalette.history": 0,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.panel.opensMaximized": "never",
+  "workbench.panel.opensMaximized": "always",
   "workbench.settings.editor": "json",
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.settings.useSplitJSON": false,
@@ -88,13 +78,9 @@
     "javascript": "javascriptreact",
     "markdown": "html"
   },
-  "eslint.alwaysShowStatus": true,
   "gutterpreview.showImagePreviewOnGutter": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "material-icon-theme.hidesExplorerArrows": false,
-  "prettier.disableLanguages": [
-    "html"
-  ],
   "spellright.groupDictionaries": false,
   // Format Settings
   "css.validate": true,
@@ -102,17 +88,17 @@
     "source.fixAll": true,
     "source.fixAll.markdownlint": true
   },
-  "editor.formatOnPaste": false,
+  "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
   "html.format.enable": true,
   "html.format.extraLiners": "",
   "html.format.indentHandlebars": true,
   "html.format.indentInnerHtml": true,
   "html.format.wrapLineLength": 80,
   "javascript.format.enable": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -125,11 +111,6 @@
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-  // Screencast Mode
-  "screencastMode.mouseIndicatorColor": "#00ff80",
-  "screencastMode.mouseIndicatorSize": 44,
-  "screencastMode.onlyKeyboardShortcuts": true,
-  "screencastMode.verticalOffset": 0,
   // Miscellaneous Settings
   "breadcrumbs.enabled": false,
   "diffEditor.renderSideBySide": false,
