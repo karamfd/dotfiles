@@ -1,0 +1,12 @@
+# Our default URL when opening a page with a server
+localhost
+# Serve static websites
+file_server {
+	# Display a list of websites in multiple directories
+	browse
+	hide .DS_Store
+}
+# Proxies requests to a PHP FastCGI server from a php-fpm file.
+# This file listens to port 9000 and its location in Mac OS is:
+# /usr/local/etc/php/8.0/php-fpm.d/www.conf
+php_fastcgi localhost:9000
