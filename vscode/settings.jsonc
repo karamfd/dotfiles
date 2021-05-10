@@ -1,25 +1,24 @@
 {
   // Project Based Settings
-  "editor.cursorBlinking": "phase",
+  "editor.cursorBlinking": "solid",
   "editor.fontFamily": "Cartograph CF",
   "editor.fontLigatures": "'ss03'",
-  "editor.fontWeight": "300",
+  "editor.fontWeight": "400",
   "editor.formatOnSaveMode": "file",
   "emmet.showExpandedAbbreviation": "always",
   "explorer.sortOrder": "type",
-  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorBlinking": false,
   "window.zoomLevel": 0,
   // Editor Settings
   "editor.acceptSuggestionOnEnter": "smart",
+  "editor.accessibilitySupport": "off",
   "editor.find.cursorMoveOnType": false,
   "editor.fontSize": 20,
   "editor.lineHeight": 40,
   "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "all",
   "editor.renderWhitespace": "none",
-  "editor.rulers": [
-    80
-  ],
+  "editor.rulers": [80],
   "editor.suggest.insertMode": "replace",
   "editor.suggest.showStatusBar": true,
   "editor.tabSize": 2,
@@ -43,9 +42,10 @@
   "files.trimTrailingWhitespace": true,
   // Terminal Settings
   "terminal.integrated.confirmOnExit": false,
+  "terminal.integrated.defaultProfile.osx": "/bin/zsh",
   "terminal.integrated.fontSize": 20,
-  "terminal.integrated.rendererType": "canvas",
-  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.gpuAcceleration": "auto",
+  "terminal.integrated.inheritEnv": false,
   // Window & Workbench Settings
   "window.restoreWindows": "none",
   "window.titleBarStyle": "custom",
@@ -53,6 +53,7 @@
   "workbench.commandPalette.history": 0,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.fontAliasing": "auto",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.panel.opensMaximized": "always",
   "workbench.settings.editor": "json",
@@ -68,11 +69,7 @@
     "scss"
   ],
   "colorize.enable_search_variables": false,
-  "colorize.languages": [
-    "css",
-    "jsonc",
-    "svg"
-  ],
+  "colorize.languages": ["css", "jsonc", "svg"],
   "emmet.excludeLanguages": [],
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
@@ -100,10 +97,10 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
