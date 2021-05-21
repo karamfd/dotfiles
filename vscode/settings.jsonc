@@ -3,7 +3,7 @@
   "editor.cursorBlinking": "solid",
   "editor.fontFamily": "Cartograph CF",
   "editor.fontLigatures": "'ss03'",
-  "editor.fontWeight": "400",
+  "editor.fontWeight": "300",
   "editor.formatOnSaveMode": "file",
   "emmet.showExpandedAbbreviation": "always",
   "explorer.sortOrder": "type",
