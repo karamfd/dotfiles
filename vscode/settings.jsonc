@@ -3,7 +3,7 @@
   "editor.cursorBlinking": "solid",
   "editor.fontFamily": "Cartograph CF",
   "editor.fontLigatures": "'ss03'",
-  "editor.fontWeight": "300",
+  "editor.fontWeight": "400",
   "editor.formatOnSaveMode": "file",
   "emmet.showExpandedAbbreviation": "always",
   "explorer.sortOrder": "type",
@@ -45,7 +45,7 @@
   "terminal.integrated.defaultProfile.osx": "/bin/zsh",
   "terminal.integrated.fontSize": 20,
   "terminal.integrated.gpuAcceleration": "auto",
-  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.inheritEnv": true,
   // Window & Workbench Settings
   "window.restoreWindows": "none",
   "window.titleBarStyle": "custom",
