@@ -15,21 +15,17 @@ setopt HIST_REDUCE_BLANKS   # remove blank lines from history
 setopt INTERACTIVE_COMMENTS # enable comments in your shell
 setopt SHARE_HISTORY        # share history across multiple zsh sessions
 
-# ***********************************************
+# **********************************************************************
 # Load everything below manually to avoid
 # getting errors when the terminal starts
-# ***********************************************
+# **********************************************************************
 
-# -----------------
-# Features
-# -----------------
+# Node version manager: N
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
 
 # Completions
 source ~/.zsh/completion.zsh
 autoload -Uz compinit && compinit
-
-# Node version manager: N
-export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
 
 # Auto Suggestions
 source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
