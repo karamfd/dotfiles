@@ -24,11 +24,7 @@ setopt SHARE_HISTORY        # share history across multiple zsh sessions
 # Features
 # -----------------
 
-# Starship Prompt
-eval "$(starship init zsh)"
-
 # Completions
-fpath=(~/.zsh/plugins/zsh-completions/src $fpath)
 source ~/.zsh/completion.zsh
 autoload -Uz compinit && compinit
 
@@ -36,8 +32,12 @@ autoload -Uz compinit && compinit
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
 
 # Auto Suggestions
+source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ZSH_AUTOSUGGEST_USE_ASYNC=true
 export ZSH_AUTOSUGGEST_MANUAL_REBIND=false
-source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-# Syntax Highlighting
+
+# Syntax highlighting
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Starship prompt
+eval "$(starship init zsh)"
