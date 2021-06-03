@@ -1,8 +1,8 @@
 {
   // Project Based Settings
   "editor.cursorBlinking": "solid",
-  "editor.fontFamily": "Cartograph CF",
-  "editor.fontLigatures": "'ss03'",
+  "editor.fontFamily": "Office Code Pro",
+  "editor.fontLigatures": false,
   "editor.fontWeight": "400",
   "editor.formatOnSaveMode": "file",
   "emmet.showExpandedAbbreviation": "always",
@@ -56,6 +56,7 @@
   "workbench.fontAliasing": "auto",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.panel.opensMaximized": "always",
+  "workbench.productIconTheme": "material-product-icons",
   "workbench.settings.editor": "json",
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.settings.useSplitJSON": false,
@@ -69,11 +70,10 @@
     "scss"
   ],
   "colorize.enable_search_variables": false,
-  "colorize.languages": ["css", "jsonc", "svg"],
+  "colorize.languages": ["css", "json", "jsonc", "svg"],
   "emmet.excludeLanguages": [],
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "markdown": "html"
+    "javascript": "javascriptreact"
   },
   "gutterpreview.showImagePreviewOnGutter": false,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -85,6 +85,7 @@
     "source.fixAll": true,
     "source.fixAll.markdownlint": true
   },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "html.format.enable": true,
@@ -93,21 +94,6 @@
   "html.format.indentInnerHtml": true,
   "html.format.wrapLineLength": 80,
   "javascript.format.enable": false,
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
   // Miscellaneous Settings
   "breadcrumbs.enabled": false,
   "diffEditor.renderSideBySide": false,
