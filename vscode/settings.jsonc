@@ -8,6 +8,8 @@
   "emmet.showExpandedAbbreviation": "always",
   "explorer.sortOrder": "type",
   "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.fontFamily": "Inconsolata NF",
+  "terminal.integrated.fontSize": 20,
   "window.zoomLevel": 0,
   // Editor Settings
   "editor.acceptSuggestionOnEnter": "smart",
@@ -18,7 +20,6 @@
   "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "all",
   "editor.renderWhitespace": "none",
-  "editor.rulers": [80],
   "editor.suggest.insertMode": "replace",
   "editor.suggest.showStatusBar": true,
   "editor.tabSize": 2,
@@ -43,7 +44,6 @@
   // Terminal Settings
   "terminal.integrated.confirmOnExit": false,
   "terminal.integrated.defaultProfile.osx": "/bin/zsh",
-  "terminal.integrated.fontSize": 20,
   "terminal.integrated.gpuAcceleration": "auto",
   "terminal.integrated.inheritEnv": true,
   // Window & Workbench Settings
@@ -93,6 +93,9 @@
   "html.format.indentHandlebars": true,
   "html.format.indentInnerHtml": true,
   "html.format.wrapLineLength": 80,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
   "javascript.format.enable": false,
   // Miscellaneous Settings
   "breadcrumbs.enabled": false,
