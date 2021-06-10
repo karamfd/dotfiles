@@ -43,7 +43,7 @@
   "files.trimTrailingWhitespace": true,
   // Terminal Settings
   "terminal.integrated.confirmOnExit": false,
-  "terminal.integrated.defaultProfile.osx": "/bin/zsh",
+  "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.gpuAcceleration": "auto",
   "terminal.integrated.inheritEnv": true,
   // Window & Workbench Settings
