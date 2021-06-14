@@ -17,6 +17,7 @@
 - [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+- [Markdown Preview VS Code Highlighting](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-shiki)
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [Material Product Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-product-icons)
 - [Nord Color Theme](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code)
