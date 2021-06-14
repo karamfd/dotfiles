@@ -97,7 +97,7 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "javascript.format.enable": false,
-  // Miscellaneous Settings
+  // Miscellaneous
   "breadcrumbs.enabled": false,
   "diffEditor.renderSideBySide": false,
   "markdown.preview.fontSize": 20,
@@ -105,5 +105,6 @@
   "scm.defaultViewMode": "tree",
   "scm.diffDecorations": "none",
   "search.searchOnType": false,
+  "security.workspace.trust.enabled": false,
   "telemetry.enableTelemetry": false
 }
