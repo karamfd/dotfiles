@@ -1,19 +1,17 @@
 {
   // Project Based Settings
-  "editor.cursorBlinking": "solid",
-  "editor.fontFamily": "Office Code Pro",
-  "editor.fontLigatures": false,
-  "editor.fontWeight": "400",
+  "editor.cursorBlinking": "phase",
+  "editor.fontFamily": "Cartograph CF",
+  "editor.fontLigatures": "'ss03'",
+  "editor.fontWeight": "300",
   "editor.formatOnSaveMode": "file",
   "emmet.showExpandedAbbreviation": "always",
-  "explorer.sortOrder": "type",
-  "terminal.integrated.cursorBlinking": false,
+  "explorer.sortOrder": "filesFirst",
+  "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontFamily": "Inconsolata NF",
   "terminal.integrated.fontSize": 20,
-  "window.zoomLevel": 0,
   // Editor Settings
   "editor.acceptSuggestionOnEnter": "smart",
-  "editor.accessibilitySupport": "off",
   "editor.find.cursorMoveOnType": false,
   "editor.fontSize": 20,
   "editor.lineHeight": 40,
@@ -32,25 +30,15 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
-  "files.exclude": {
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/.git": true,
-    "**/.hg": true,
-    "**/.localized": true,
-    "**/.svn": true
-  },
   "files.trimTrailingWhitespace": true,
   // Terminal Settings
   "terminal.integrated.confirmOnExit": false,
   "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.gpuAcceleration": "auto",
-  "terminal.integrated.inheritEnv": true,
   // Window & Workbench Settings
   "window.restoreWindows": "none",
   "window.titleBarStyle": "custom",
   "workbench.colorTheme": "Spunky",
-  "workbench.commandPalette.history": 0,
+  "workbench.commandPalette.history": 5,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.fontAliasing": "auto",
@@ -63,12 +51,7 @@
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "none",
   // Extension Settings
-  "bracket-pair-colorizer-2.excludedLanguages": [
-    "css",
-    "html",
-    "markdown",
-    "scss"
-  ],
+  "bracket-pair-colorizer-2.excludedLanguages": ["css", "html", "markdown"],
   "colorize.enable_search_variables": false,
   "colorize.languages": ["css", "json", "jsonc", "svg"],
   "emmet.excludeLanguages": [],
@@ -77,19 +60,15 @@
   },
   "gutterpreview.showImagePreviewOnGutter": false,
   "liveServer.settings.donotShowInfoMsg": true,
-  "markdownShiki.theme": "dark_plus",
   "material-icon-theme.hidesExplorerArrows": false,
   "spellright.groupDictionaries": false,
   // Format Settings
-  "css.validate": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.fixAll.markdownlint": true
+    "source.fixAll": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "html.format.enable": true,
   "html.format.extraLiners": "",
   "html.format.indentHandlebars": true,
   "html.format.indentInnerHtml": true,
@@ -106,6 +85,5 @@
   "scm.defaultViewMode": "tree",
   "scm.diffDecorations": "none",
   "search.searchOnType": false,
-  "security.workspace.trust.enabled": false,
   "telemetry.enableTelemetry": false
 }
