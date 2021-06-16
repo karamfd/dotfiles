@@ -31,4 +31,4 @@ rules:
     - allowForLoopAfterthoughts: true
   semi:
     - error
-    - never
+    - always
